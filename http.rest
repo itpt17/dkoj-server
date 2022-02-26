@@ -1,0 +1,30 @@
+# GET http://localhost:2022/
+
+# POST http://localhost:2022/login
+# Content-Type: application/json
+
+# {
+#     "type":"facebook",
+#     "fbID":"123467",
+#     "name":"Bui Duc Khanh",
+#     "email":"itpt1711@gmail.com"
+# }
+
+# POST http://localhost:2022/login
+# Content-Type: application/json
+
+# {
+#     "type": "google",
+#     "ggID": "12345678",
+#     "name": "Duc Khanh",
+#     "email": "itpt1712@gmail.com"
+# }
+
+# POST http://localhost:2022/login
+# Content-Type: application/json
+
+# {
+#     "type":"account",
+#     "username":"admin",
+#     "password":"admin"
+# }
